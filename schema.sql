@@ -6,6 +6,7 @@ CREATE TABLE users (
     password VARCHAR(50) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE, 
     role VARCHAR(50) NOT NULL,
+    contact_no INTEGER NOT NULL,
     date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
