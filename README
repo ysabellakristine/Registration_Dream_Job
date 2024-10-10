@@ -2,7 +2,8 @@ Explanations:
 dbConfig.php = configures database structure immediately if it has access to schema.sql
 schema.sql = added if not exists due to code
 styles.css = css style applications
-handleForms.php = if else conditions
+handleForms.php = if else conditions for index.php
+index.php = main page
 models.php = function definitions
 
 FOLDERS USED:
