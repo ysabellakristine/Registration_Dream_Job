@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS users (
-    user_id INTEGER PRIMARY KEY,
+    user_id INTEGER PRIMARY KEY AUTO_INCREMENT,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
     gender VARCHAR(50) NOT NULL,
@@ -9,4 +9,3 @@ CREATE TABLE IF NOT EXISTS users (
     contact_no INTEGER NOT NULL,
     date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
