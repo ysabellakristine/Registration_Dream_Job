@@ -9,3 +9,5 @@ models.php = function definitions
 FOLDERS USED:
 main = where the main things are put in
 sql = where schema is placed
+
+Due to security reasons from my browser I had to put locations in literal URL form
