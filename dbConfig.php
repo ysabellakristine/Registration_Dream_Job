@@ -29,9 +29,9 @@ try {
     if (file_exists('schema.sql')) {
         $schema = file_get_contents('schema.sql');  // Reads content of the schema.sql file
         $pdo->exec($schema);                      // Executes SQL statements to create tables
-        echo "Ayos na tables natin.<br>";                     // Prints statement once completed
+        $dbCreation_Message = "Ayos na tables natin.<br>";                     // Prints statement once completed
     } else {
-        echo "Schema file not found.<br>";
+        $dbCreation_Message = "Schema file not found.<br>";
     }
 
 } catch (PDOException $e) {
